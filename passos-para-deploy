@@ -1,0 +1,19 @@
+dotnet publish -c release
+
+git init
+
+criar arquivo .gitignore
+	bin
+	obj
+	Properties
+	.vscode
+
+git add --all
+
+git commit -m "iniciando repo"
+
+git push -u origin master
+
+criar aplicativo web no azure
+
+configurar o deployment center para o github
