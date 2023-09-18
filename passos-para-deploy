@@ -7,6 +7,10 @@ criar arquivo .gitignore
 	obj
 	Properties
 	.vscode
+	appsettings.Development.json
+
+* remover strings de conexão do appsettings e deixar somente no de dev que não sobe para o repositório.
+* as strings de connexão de produção serão configuradas direto no azure
 
 git add --all
 
